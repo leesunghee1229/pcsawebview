@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "936412911382",
+    "firebase_url": "https://pcsawebview.firebaseio.com",
+    "project_id": "pcsawebview",
+    "storage_bucket": "pcsawebview.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:936412911382:android:40a8671a0026e865",
+        "android_client_info": {
+          "package_name": "kr.pcsa.pscawebview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "936412911382-8mopsnfmk85v8gjhvln876sp7sm0mh43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF8gVfp_zI5L9iZ77seMrjDW-Nto974Es"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
