@@ -14,22 +14,17 @@ public class MainListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_list);
 
+        Button mButtonList2 = (Button) findViewById(R.id.button2);
+        Button mButtonList3 = (Button) findViewById(R.id.button3);
 
-        Button mButtonList = (Button) findViewById(R.id.button2);
-
-        mButtonList.setOnClickListener(new View.OnClickListener() {
+        mButtonList3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"리스트 창입니다요",Toast.LENGTH_SHORT).show();
-
                 Intent intent = new Intent(MainListActivity.this,MainActivity.class);
-
                 startActivity(intent);
-
             }
         });
 
     }
-
 
 }
