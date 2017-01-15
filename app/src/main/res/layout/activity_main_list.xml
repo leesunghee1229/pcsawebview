@@ -19,10 +19,26 @@
         android:id="@+id/button2" />
 
     <Button
-        android:text="dialog popup"
+        android:text="연습1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button2"
         android:layout_alignParentStart="true"
-        android:id="@+id/button3" />
+        android:id="@+id/study1" />
+
+    <Button
+        android:text="연습2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/study2"
+        android:layout_below="@+id/study1"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="연습3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/study3"
+        android:layout_below="@+id/study2"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
