@@ -1,4 +1,4 @@
-package kr.pcsa.pscawebview;
+package kr.pcsa.pscawebview.study;
 
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.Toast;
+
+import kr.pcsa.pscawebview.R;
 
 public class Study2Activity extends AppCompatActivity {
 

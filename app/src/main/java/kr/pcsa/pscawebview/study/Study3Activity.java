@@ -1,4 +1,4 @@
-package kr.pcsa.pscawebview;
+package kr.pcsa.pscawebview.study;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import kr.pcsa.pscawebview.study.MyService;
+import kr.pcsa.pscawebview.R;
 
 public class Study3Activity extends AppCompatActivity {
 

@@ -14,13 +14,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppNoActionBar">
         <activity android:name=".MainListActivity">
+
+        </activity>
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -46,15 +48,16 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name=".Study1Activity" />
-        <activity android:name=".Study2Activity" />
-        <activity android:name=".Study3Activity" />
-        <activity android:name=".Study33Activity" />
+        <activity android:name=".study.Study1Activity" />
+        <activity android:name=".study.Study2Activity" />
+        <activity android:name=".study.Study3Activity" />
+        <activity android:name=".study.Study33Activity" />
 
         <service
             android:name=".study.MyService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
+
     </application>
 
 </manifest>

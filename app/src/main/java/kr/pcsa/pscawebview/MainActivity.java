@@ -25,7 +25,7 @@ import android.widget.Toast;
 
 import com.google.firebase.iid.FirebaseInstanceId;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     WebView mWebView;
     ProgressBar progressBar;
@@ -33,13 +33,19 @@ public class MainActivity extends AppCompatActivity {
      * http://pcsa.kr/api/v1000/device/device-register?m=26&device_token=sdfsdf (post 방식)
      * http://pcsa.kr/api/v1000/item/item-list
      */
-    public static final String mainUrl = "http://pcsa.kr/estimate?m=26";
+    public static final String mainUrl = "http://pcsa.kr/estimate?m=26&webview=Y";
 //    public static final String mainUrl = "http://pcsa.kr";
 
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void defaultSetup() {
+
+    }
+
+    @Override
+    protected void onCreateOnBase(Bundle savedInstanceState) {
         getWindow().requestFeature(Window.FEATURE_PROGRESS); // 프로그레스
-        super.onCreate(savedInstanceState);
+//        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
 //        String token = FirebaseInstanceId.getInstance().getToken();
