@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
      * http://pcsa.kr/api/v1000/device/device-register?m=26&device_token=sdfsdf (post 방식)
      * http://pcsa.kr/api/v1000/item/item-list
      */
-    public static final String mainUrl = "http://pcsa.kr/estimate?m=26";
+    public static final String mainUrl = "http://tujago.com";
+//    public static final String mainUrl = "http://pcsa.kr/estimate?m=26";
 //    public static final String mainUrl = "http://pcsa.kr";
 
     @Override
@@ -59,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
         set.setDomStorageEnabled(true);
         set.setDatabaseEnabled(true);
         set.setAppCacheEnabled(true);
+        set.setDisplayZoomControls(false);
 
         mWebView.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
         mWebView.setScrollbarFadingEnabled(false);
