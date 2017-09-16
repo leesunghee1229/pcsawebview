@@ -1,12 +1,14 @@
 package kr.pcsa.pscawebview;
 
-import android.content.ComponentName;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
+
+import kr.pcsa.pscawebview.study.Study1Activity;
+import kr.pcsa.pscawebview.study.Study2Activity;
+import kr.pcsa.pscawebview.study.Study3Activity;
 
 public class MainListActivity extends AppCompatActivity {
 

@@ -46,10 +46,10 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name=".Study1Activity" />
-        <activity android:name=".Study2Activity" />
-        <activity android:name=".Study3Activity" />
-        <activity android:name=".Study33Activity" />
+        <activity android:name=".study.Study1Activity" />
+        <activity android:name=".study.Study2Activity" />
+        <activity android:name=".study.Study3Activity" />
+        <activity android:name=".study.Study33Activity" />
 
         <service
             android:name=".study.MyService"

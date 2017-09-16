@@ -60,7 +60,6 @@ public class MainActivity extends AppCompatActivity {
         set.setDomStorageEnabled(true);
         set.setDatabaseEnabled(true);
         set.setAppCacheEnabled(true);
-        set.setDisplayZoomControls(false);
 
         mWebView.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
         mWebView.setScrollbarFadingEnabled(false);
